@@ -134,6 +134,7 @@ def process_user(auth_data, auto_upgrade, auto_claim_task, enable_daily_claim,en
         daily = claim_daily(auth_data)
         if daily:
             print(f"Daily claim successful for {username}")
+            print("Join Grup https://t.me/dasarpemulung")
         else:
             print(f"Failed daily claim for {username}")
 
@@ -152,6 +153,7 @@ def process_user(auth_data, auto_upgrade, auto_claim_task, enable_daily_claim,en
                 clear_result = clear_task(task_id, auth_data)
                 if clear_result:
                     print(f"Task {task_name} cleared for {username}.")
+                    print("Join Grup https://t.me/dasarpemulung")
                 else:
                     print(f"Failed to clear task {task_name} for {username}.")
         else:
